@@ -1,0 +1,15 @@
+Kokoro TTS Processing Log
+==============================
+Timestamp: 2025-03-03 18:14:02
+Input File (Original): E:\GitHub\Kokoro-TTS-GPU\alice.txt
+Input File (Sanitized with ftfy): E:\GitHub\Kokoro-TTS-GPU\alice_sanitized.txt
+Output File: E:\GitHub\Kokoro-TTS-GPU\alice_sanitized.wav
+Voice: bf_emma
+Language: en-gb
+Speed: 0.8
+Format: wav
+Split Directory: None
+
+Processing Details:
+
+UNEXPECTED ERROR: [WinError 123] The filename, directory name, or volume label syntax is incorrect

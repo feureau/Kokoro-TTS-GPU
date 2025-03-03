@@ -1,0 +1,29 @@
+Kokoro TTS Processing Log
+==============================
+Timestamp: 2025-03-03 06:05:18
+Input File: F:\AI\kokoro-tts\alice.txt
+Output File: F:\AI\kokoro-tts\alice.wav
+Voice: bf_emma
+Language: en-gb
+Speed: 0.8
+Format: wav
+Split Directory: None
+
+Processing Details:
+Exception in thread Thread-1 (spinning_wheel):
+Traceback (most recent call last):
+  File "threading.py", line 1052, in _bootstrap_inner
+  File "threading.py", line 989, in run
+  File "F:\AI\kokoro-tts\kokoro-tts", line 40, in spinning_wheel
+    sys.stdout.write(f"\r{message} {spin}")
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode character '\u280b' in position 22: character maps to <undefined>
+
+Processing: Chapter 1
+
+Completed Chapter 1: 1/1 chunks processed
+
+Saving complete audio file...
+Created F:\AI\kokoro-tts\alice.wav
+
+SUCCESSFUL PROCESSING
