@@ -8,10 +8,7 @@ Make sure to follow the standard kokoro-tts set up to get things to work first. 
 
     uv sync
 
-We'll also need to download the onnyx file:
-
-    wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.0.onnx
-
+We'll also need to unzip the .onyx file to this folder (root).
 
 
 The two main files you are going to be using is kokoro.py and kokoro.bat. 
